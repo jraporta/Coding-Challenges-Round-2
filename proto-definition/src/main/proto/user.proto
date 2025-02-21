@@ -1,0 +1,28 @@
+// user.proto
+syntax = "proto3";
+
+option java_package = "io.nuwe.technical.api.lib";
+option java_outer_classname = "UserProto";
+
+package userproto;
+
+// TODO: TASK 1
+
+// Request payload
+message UserRequest {
+    int64 id = 1;
+}
+
+// Response payload
+message UserResponse {
+    int64 id = 1;
+    string name = 2;
+    string email = 3;
+    int32 age = 4;
+    bool isSubscribed = 5;
+}
+
+service UserService {
+  // Get User and returns the UserResponse
+    rpc getUser (UserRequest) returns (UserResponse) {}
+}
