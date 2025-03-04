@@ -1,3 +1,7 @@
+My final score to end in the 5th position:
+
+![image](https://github.com/user-attachments/assets/c7502a51-8003-40eb-a972-b210310a17f5)
+
 # 🍃 Java Backend - gRPC & REST Microservices 📡
 
 Category   ➡️   Software
